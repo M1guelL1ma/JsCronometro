@@ -10,6 +10,7 @@ const btnR = document.getElementById("btnR")
 btnI.addEventListener("click", iniciarCronometro);
 function iniciarCronometro() {
     if (intervalo) return; //evita que exista múltiplos intervalos
+    
 
     intervalo = setInterval (() => {
         segundos++;
